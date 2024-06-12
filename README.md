@@ -34,6 +34,8 @@ Why can't we write RemoteDriver driver = new ChromeDrive();
 32. What are the different closure reports?
 33. What is the difference between a Test Plan and a Test Strategy document?
 34. Define Bug lifecycle of JIRA.
+
+    
 </br>
 </br>
 
@@ -84,4 +86,78 @@ Why can't we write RemoteDriver driver = new ChromeDrive();
 
 15. What is Apache POI?
 →Apache POI is the most popular Java library/API used to interact with Microsoft Excel Sheets. It is used to read data from Excel sheets and write data into Excel sheets.
+
+
+</br>
+</br>
+
+
+Interview questions series for QA Automation Role
+
+Experience level -> 3 to 8 years 
+Duration -> 1.5 hrs.
+Quick tips - good understanding of programming, QA and Selenium
+
+Questions:
+
+1) Brief me about your experience 
+2) What tools and technologies have you worked on? 
+3) What’s your favorite programming language? And rate yourself
+
+Note - If you rate yourself 6 or above then get ready to face challenging coding questions.
+
+4) Find the longest substrings of these three strings: 
+Example 1 - aab
+Example 2 - pwwkew
+Example 3 - abcbcabcda
+
+5) Have you created a dynamic Xpath? If yes then give examples. 
+How to automate the elements which sometimes pass or fail?
+6) How to send only lowercase text where data is derived from external source, without using any java functions or libraries.
+7) What is the difference in keyword driven vs data driven vs behavior driven frameworks?
+8) What is Hashmap? 
+9) If hashmap is available then why do you need HashSet?
+10) How to handle exceptions? 
+11) Why do you need finally block? 
+12) Why do you use Array when ArrayList is available?
+13) What are different ways to execute parallel tests in selenium? 
+14) How to execute different suites using Maven and TestNG? 
+15) Create a dynamic XPath which can find all headlines on Amazon.com 
+Steps - 
+Go to Amazon.com
+Search for Smart TV
+Create Xpath to retrieve the name of all products and store in List
+16) Why strings are immutable? 
+ 17) What is string constant pool? 
+ 18) When int a = 20; 
+int b = a ; 
+System.out.println(a); -> o/p - 20
+System.out.println(b); -> o/p - 20
+a=30; 
+System.out.println(a); -> o/p - 30
+System.out.println(b); -> o/p - 20
+
+But when we do same operation in HashMaps
+
+Map<String, Integer> map1 = new HashMap<>();
+map1.put(“value”, 25);
+
+Map<String, Integer> map2 = new HashMap<>();
+
+map1=map2;
+
+System.out.println(map1); -> o/p - value,25
+System.out.println(map2); -> o/p - 20 - value,25
+
+Now if we update this to - 
+map1.put(“value”, 42)
+
+System.out.println(map1); -> o/p - value,42
+System.out.println(map2); -> o/p - 20 - value,42
+
+Why does this happen??
+
+19) Why do you need Throw and Throws keyword when we have Try,catch and finally? 
+20) Explain Smoke vs Sanity vs Regression differences? 
+21) What do you understand by git rebase?
 
