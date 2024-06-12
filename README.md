@@ -40,7 +40,7 @@ Why can't we write RemoteDriver driver = new ChromeDrive();
 </br>
 
 
-#Mostly Asked Selenium Interview Questions:
+##Mostly Asked Selenium Interview Questions:
 
 1. What is Selenium?
 → Selenium is an open-source automation testing tool designed for web application testing.
@@ -92,7 +92,7 @@ Why can't we write RemoteDriver driver = new ChromeDrive();
 </br>
 
 
-Interview questions series for QA Automation Role
+##Interview questions series for QA Automation Role
 
 Experience level -> 3 to 8 years 
 Duration -> 1.5 hrs.
