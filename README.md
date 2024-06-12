@@ -34,7 +34,9 @@ Why can't we write RemoteDriver driver = new ChromeDrive();
 32. What are the different closure reports?
 33. What is the difference between a Test Plan and a Test Strategy document?
 34. Define Bug lifecycle of JIRA.
-|--------------------------------------------------------------------------------|
+</br>
+</br>
+
 
 #Mostly Asked Selenium Interview Questions:
 
