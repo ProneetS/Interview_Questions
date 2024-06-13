@@ -163,3 +163,64 @@ Why does this happen??
 20) Explain Smoke vs Sanity vs Regression differences? 
 21) What do you understand by git rebase?
 
+<br/>
+<br/>
+
+
+
+1. **How would you test a function that reverses a string?**
+   - Test with various input strings: empty string, strings with single character, strings with multiple characters.
+   - Test with special characters, numbers, and Unicode characters.
+   - Test with edge cases like very long strings or strings containing whitespace.
+   - Verify that the function correctly handles null or undefined inputs if applicable.
+
+2. **Can you explain boundary value analysis and equivalence partitioning as applied to string inputs?**
+   - Boundary value analysis involves testing at the boundaries of input domains. For strings, this includes testing the minimum and maximum lengths, as well as just below and above any constraints.
+   - Equivalence partitioning involves dividing the input domain into classes of equivalent inputs and selecting representative values from each class to test. For strings, this might involve testing with valid strings, invalid strings, and boundary cases.
+
+3. **How would you handle testing for internationalization and localization of strings?**
+   - Test with different languages and character sets to ensure proper display and handling of characters.
+   - Verify that strings are properly translated and formatted according to language and regional conventions.
+   - Test with languages that use different writing directions (e.g., left-to-right vs. right-to-left) to ensure proper layout.
+   - Check for proper handling of date, time, and number formats according to locale settings.
+
+4. **What approaches would you use to test input validation for string inputs?**
+   - Test with valid inputs to ensure they are accepted.
+   - Test with invalid inputs to ensure they are rejected and appropriate error messages are displayed.
+   - Test with boundary values to ensure that edge cases are handled correctly.
+   - Test with special characters and Unicode characters to ensure proper handling of different input types.
+
+5. **Can you discuss the importance of handling special characters and escape sequences in strings during testing?**
+   - Special characters and escape sequences can have different meanings and interpretations in different contexts.
+   - Testing ensures that these characters are properly handled and interpreted according to the requirements of the application.
+   - Failure to handle special characters correctly can lead to security vulnerabilities or unexpected behavior in the application.
+
+6. **How would you verify the performance of string manipulation operations in a system?**
+   - Use performance testing tools to measure the time taken by string manipulation operations under normal and peak loads.
+   - Test with strings of varying lengths to ensure consistent performance across different input sizes.
+   - Identify performance bottlenecks and optimize string manipulation algorithms or implementation if necessary.
+
+7. **Describe the process you would follow to test a string parsing algorithm or regular expression.**
+   - Identify the expected input and output formats based on the requirements.
+   - Test with valid inputs to ensure that the algorithm produces the correct output.
+   - Test with invalid inputs to ensure that error conditions are handled correctly.
+   - Test with edge cases and boundary values to ensure robustness and correctness.
+   - Verify performance under different input sizes and complexity levels.
+
+8. **How do you ensure proper handling of null or empty strings in a software system?**
+   - Test with null strings to ensure that they are properly handled and do not cause unexpected errors or behavior.
+   - Test with empty strings to ensure that they are treated appropriately according to the requirements.
+   - Verify that functions or methods handle null or empty strings gracefully and return expected results or error messages.
+
+9. **Discuss strategies for testing string concatenation functions to ensure they handle edge cases correctly.**
+   - Test with empty strings and strings of varying lengths to ensure that concatenation works correctly in all cases.
+   - Test with special characters and Unicode characters to ensure proper handling of different input types.
+   - Test with null strings to ensure that they are properly handled and do not cause unexpected behavior.
+   - Verify that the concatenation function produces the correct output when concatenating multiple strings in different orders.
+
+10. **Can you outline your approach to testing string formatting and templating features in a software application?**
+    - Test with different formatting options and templates to ensure that they produce the expected output.
+    - Test with different input data types (strings, numbers, dates, etc.) to ensure that formatting is applied correctly.
+    - Test with edge cases and boundary values to ensure robustness and correctness.
+    - Verify that formatting and templating features are properly localized and handle internationalization requirements.
+    - Check for performance implications of formatting and templating operations, especially with large datasets or complex templates.
